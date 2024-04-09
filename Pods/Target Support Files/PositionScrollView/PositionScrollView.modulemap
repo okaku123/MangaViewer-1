@@ -1,0 +1,6 @@
+framework module PositionScrollView {
+  umbrella header "PositionScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

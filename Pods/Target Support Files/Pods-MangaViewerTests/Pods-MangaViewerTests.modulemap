@@ -1,0 +1,6 @@
+framework module Pods_MangaViewerTests {
+  umbrella header "Pods-MangaViewerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
