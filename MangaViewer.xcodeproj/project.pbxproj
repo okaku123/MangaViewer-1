@@ -363,6 +363,18 @@
 			path = WebViewer;
 			sourceTree = "<group>";
 		};
+		0BE8BCA12BCD612100261213 /* KeystoreViewer */ = {
+			isa = PBXGroup;
+			children = (
+				0BE9D16E2B792FDF000463E0 /* GetBooksModel.swift */,
+				0B7E73A52B79BD9400078D24 /* KeystoreBookManager.swift */,
+				0B7E73A72B79C24800078D24 /* KeystoreManagerBookCell.swift */,
+				0B7E73A92B79C3FB00078D24 /* KeystoreBookManagerGrid.swift */,
+				0B7E73AB2B7A44F800078D24 /* KeystoreBookmanagerDetailsView.swift */,
+			);
+			path = KeystoreViewer;
+			sourceTree = "<group>";
+		};
 		BA8B1AF5266490D7000B8022 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,11 +397,6 @@
 				BAC6832326857DF20037C8EC /* MainView.swift */,
 				D15E3E5126C76EAF00EF4ECD /* AnimateMenuBtn.swift */,
 				0B4769B12B79261100C4F5E6 /* Help.swift */,
-				0BE9D16E2B792FDF000463E0 /* GetBooksModel.swift */,
-				0B7E73A52B79BD9400078D24 /* KeystoreBookManager.swift */,
-				0B7E73A72B79C24800078D24 /* KeystoreManagerBookCell.swift */,
-				0B7E73A92B79C3FB00078D24 /* KeystoreBookManagerGrid.swift */,
-				0B7E73AB2B7A44F800078D24 /* KeystoreBookmanagerDetailsView.swift */,
 				0B7E73AD2B7A5B5500078D24 /* ShowMeunContext.swift */,
 				0B7E73AF2B7A6C1400078D24 /* GaugeProgressStyle.swift */,
 			);
@@ -544,6 +551,7 @@
 		D1BEA9D0265D25F700807A9B /* MangaViewer */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8BCA12BCD612100261213 /* KeystoreViewer */,
 				0BCE6CE32BB5AB4C00A73936 /* WebViewer */,
 				D1A8047626F240570035B5CE /* tessdata */,
 				D1B7522D26CA9E4400ED893E /* cropView */,
