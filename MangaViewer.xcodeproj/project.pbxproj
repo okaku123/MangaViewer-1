@@ -24,6 +24,26 @@
 		0BC3DB2A2BB84D3E00D07D04 /* WebManagerBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3DB292BB84D3E00D07D04 /* WebManagerBookCell.swift */; };
 		0BCE6CE52BB5AB8B00A73936 /* WebManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE6CE42BB5AB8B00A73936 /* WebManager.swift */; };
 		0BE8BCA42BCEC31B00261213 /* ScreenComet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCA32BCEC31B00261213 /* ScreenComet.swift */; };
+		0BE8BCBA2BD0000C00261213 /* MimeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCA62BD0000900261213 /* MimeTypes.swift */; };
+		0BE8BCBB2BD0000C00261213 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCA72BD0000900261213 /* DemoServer.swift */; };
+		0BE8BCBC2BD0000C00261213 /* Socket+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCA82BD0000900261213 /* Socket+File.swift */; };
+		0BE8BCBD2BD0000C00261213 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCA92BD0000900261213 /* HttpRouter.swift */; };
+		0BE8BCBE2BD0000C00261213 /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAA2BD0000A00261213 /* WebSockets.swift */; };
+		0BE8BCBF2BD0000C00261213 /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAB2BD0000A00261213 /* String+SHA1.swift */; };
+		0BE8BCC02BD0000C00261213 /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAC2BD0000A00261213 /* HttpServerIO.swift */; };
+		0BE8BCC12BD0000C00261213 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAD2BD0000A00261213 /* HttpResponse.swift */; };
+		0BE8BCC22BD0000C00261213 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAE2BD0000A00261213 /* String+File.swift */; };
+		0BE8BCC32BD0000C00261213 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCAF2BD0000A00261213 /* HttpParser.swift */; };
+		0BE8BCC42BD0000C00261213 /* Errno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB02BD0000A00261213 /* Errno.swift */; };
+		0BE8BCC52BD0000C00261213 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB12BD0000A00261213 /* Scopes.swift */; };
+		0BE8BCC62BD0000C00261213 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB22BD0000A00261213 /* Socket.swift */; };
+		0BE8BCC72BD0000C00261213 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB32BD0000B00261213 /* Process.swift */; };
+		0BE8BCC82BD0000C00261213 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB42BD0000B00261213 /* HttpServer.swift */; };
+		0BE8BCC92BD0000C00261213 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB52BD0000B00261213 /* HttpRequest.swift */; };
+		0BE8BCCA2BD0000C00261213 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB62BD0000B00261213 /* Files.swift */; };
+		0BE8BCCB2BD0000C00261213 /* Socket+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB72BD0000B00261213 /* Socket+Server.swift */; };
+		0BE8BCCC2BD0000C00261213 /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB82BD0000B00261213 /* String+BASE64.swift */; };
+		0BE8BCCD2BD0000C00261213 /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8BCB92BD0000B00261213 /* String+Misc.swift */; };
 		0BE9D16F2B792FDF000463E0 /* GetBooksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9D16E2B792FDF000463E0 /* GetBooksModel.swift */; };
 		1F1D5496E1BC4C9AB6EB6A1C /* Pods_MangaViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1494E314F2301956ABF682 /* Pods_MangaViewer.framework */; };
 		4B80EF0DE24D83E3DF2A0B98 /* Pods_MangaViewer_MangaViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7888530AB41B098A4C1B7E /* Pods_MangaViewer_MangaViewerUITests.framework */; };
@@ -177,6 +197,26 @@
 		0BC3DB292BB84D3E00D07D04 /* WebManagerBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebManagerBookCell.swift; sourceTree = "<group>"; };
 		0BCE6CE42BB5AB8B00A73936 /* WebManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebManager.swift; sourceTree = "<group>"; };
 		0BE8BCA32BCEC31B00261213 /* ScreenComet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenComet.swift; sourceTree = "<group>"; };
+		0BE8BCA62BD0000900261213 /* MimeTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeTypes.swift; sourceTree = "<group>"; };
+		0BE8BCA72BD0000900261213 /* DemoServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoServer.swift; sourceTree = "<group>"; };
+		0BE8BCA82BD0000900261213 /* Socket+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Socket+File.swift"; sourceTree = "<group>"; };
+		0BE8BCA92BD0000900261213 /* HttpRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
+		0BE8BCAA2BD0000A00261213 /* WebSockets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSockets.swift; sourceTree = "<group>"; };
+		0BE8BCAB2BD0000A00261213 /* String+SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SHA1.swift"; sourceTree = "<group>"; };
+		0BE8BCAC2BD0000A00261213 /* HttpServerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpServerIO.swift; sourceTree = "<group>"; };
+		0BE8BCAD2BD0000A00261213 /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		0BE8BCAE2BD0000A00261213 /* String+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+File.swift"; sourceTree = "<group>"; };
+		0BE8BCAF2BD0000A00261213 /* HttpParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParser.swift; sourceTree = "<group>"; };
+		0BE8BCB02BD0000A00261213 /* Errno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errno.swift; sourceTree = "<group>"; };
+		0BE8BCB12BD0000A00261213 /* Scopes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scopes.swift; sourceTree = "<group>"; };
+		0BE8BCB22BD0000A00261213 /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		0BE8BCB32BD0000B00261213 /* Process.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		0BE8BCB42BD0000B00261213 /* HttpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpServer.swift; sourceTree = "<group>"; };
+		0BE8BCB52BD0000B00261213 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		0BE8BCB62BD0000B00261213 /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		0BE8BCB72BD0000B00261213 /* Socket+Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Socket+Server.swift"; sourceTree = "<group>"; };
+		0BE8BCB82BD0000B00261213 /* String+BASE64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BASE64.swift"; sourceTree = "<group>"; };
+		0BE8BCB92BD0000B00261213 /* String+Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Misc.swift"; sourceTree = "<group>"; };
 		0BE9D16E2B792FDF000463E0 /* GetBooksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBooksModel.swift; sourceTree = "<group>"; };
 		14CFCB3564D7165C2F888FCD /* Pods-MangaViewer-MangaViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaViewer-MangaViewerUITests.release.xcconfig"; path = "Target Support Files/Pods-MangaViewer-MangaViewerUITests/Pods-MangaViewer-MangaViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1F7888530AB41B098A4C1B7E /* Pods_MangaViewer_MangaViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaViewer_MangaViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -385,6 +425,33 @@
 			path = ScreenComet;
 			sourceTree = "<group>";
 		};
+		0BE8BCA52BCFFFEC00261213 /* swifter */ = {
+			isa = PBXGroup;
+			children = (
+				0BE8BCA72BD0000900261213 /* DemoServer.swift */,
+				0BE8BCB02BD0000A00261213 /* Errno.swift */,
+				0BE8BCB62BD0000B00261213 /* Files.swift */,
+				0BE8BCAF2BD0000A00261213 /* HttpParser.swift */,
+				0BE8BCB52BD0000B00261213 /* HttpRequest.swift */,
+				0BE8BCAD2BD0000A00261213 /* HttpResponse.swift */,
+				0BE8BCA92BD0000900261213 /* HttpRouter.swift */,
+				0BE8BCB42BD0000B00261213 /* HttpServer.swift */,
+				0BE8BCAC2BD0000A00261213 /* HttpServerIO.swift */,
+				0BE8BCA62BD0000900261213 /* MimeTypes.swift */,
+				0BE8BCB32BD0000B00261213 /* Process.swift */,
+				0BE8BCB12BD0000A00261213 /* Scopes.swift */,
+				0BE8BCB22BD0000A00261213 /* Socket.swift */,
+				0BE8BCA82BD0000900261213 /* Socket+File.swift */,
+				0BE8BCB72BD0000B00261213 /* Socket+Server.swift */,
+				0BE8BCB82BD0000B00261213 /* String+BASE64.swift */,
+				0BE8BCAE2BD0000A00261213 /* String+File.swift */,
+				0BE8BCB92BD0000B00261213 /* String+Misc.swift */,
+				0BE8BCAB2BD0000A00261213 /* String+SHA1.swift */,
+				0BE8BCAA2BD0000A00261213 /* WebSockets.swift */,
+			);
+			path = swifter;
+			sourceTree = "<group>";
+		};
 		BA8B1AF5266490D7000B8022 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -561,6 +628,7 @@
 		D1BEA9D0265D25F700807A9B /* MangaViewer */ = {
 			isa = PBXGroup;
 			children = (
+				0BE8BCA52BCFFFEC00261213 /* swifter */,
 				0BE8BCA22BCEC2D400261213 /* ScreenComet */,
 				0BE8BCA12BCD612100261213 /* KeystoreViewer */,
 				0BCE6CE32BB5AB4C00A73936 /* WebViewer */,
@@ -954,10 +1022,16 @@
 				D1F67AE62688583C008157A0 /* PageNavView.swift in Sources */,
 				D15EED9126F0CC5E0074162D /* SetCropCellView.swift in Sources */,
 				D19F402A266FBD3100FD068F /* NukePage.swift in Sources */,
+				0BE8BCBC2BD0000C00261213 /* Socket+File.swift in Sources */,
+				0BE8BCC62BD0000C00261213 /* Socket.swift in Sources */,
 				BAC6831E268576F90037C8EC /* SideMenu.swift in Sources */,
 				D1BEA9D4265D25F800807A9B /* ContentView.swift in Sources */,
+				0BE8BCC72BD0000C00261213 /* Process.swift in Sources */,
 				0B4BEB152BBEEF9D00AD9DFF /* WebPage.swift in Sources */,
 				D1A8047426F23C5A0035B5CE /* CropRemoteControllerView.swift in Sources */,
+				0BE8BCCC2BD0000C00261213 /* String+BASE64.swift in Sources */,
+				0BE8BCC52BD0000C00261213 /* Scopes.swift in Sources */,
+				0BE8BCC42BD0000C00261213 /* Errno.swift in Sources */,
 				D12C63D526C162FA00DF6A84 /* AppDelegate.swift in Sources */,
 				BAFEDE6326A27037006173FE /* SwipeHandle.swift in Sources */,
 				D1D28AAE26BC1D4F00085886 /* NewShareBookCell.swift in Sources */,
@@ -965,6 +1039,7 @@
 				0B6EC1D92BB722B90074E194 /* HttpZipFoundation.swift in Sources */,
 				D18E60FE2661CCC7001305B0 /* MaxPageCount.swift in Sources */,
 				D18E610D266279E9001305B0 /* GroupView.swift in Sources */,
+				0BE8BCBF2BD0000C00261213 /* String+SHA1.swift in Sources */,
 				D1DCC53E26A85C07006B6ED8 /* ShareControllView.swift in Sources */,
 				D1D985D326F38936003D2677 /* CropedModel.swift in Sources */,
 				D175013C26A5C11D00AA9325 /* ShareNewDetailsView.swift in Sources */,
@@ -973,6 +1048,7 @@
 				D175013A26A5AA8D00AA9325 /* ShareGroupView.swift in Sources */,
 				D193E0BA266BC56D00C227D2 /* _NewDetailsView.swift in Sources */,
 				D18E610926624348001305B0 /* PageSizeModel.swift in Sources */,
+				0BE8BCC82BD0000C00261213 /* HttpServer.swift in Sources */,
 				D17FD98C26FF5FC500022869 /* PageJumpButton.swift in Sources */,
 				D15EEDA126F0CC7E0074162D /* HUD.swift in Sources */,
 				D15EED8F26F0CC5E0074162D /* TransformHSideBar.swift in Sources */,
@@ -994,15 +1070,18 @@
 				0BCE6CE52BB5AB8B00A73936 /* WebManager.swift in Sources */,
 				0BE9D16F2B792FDF000463E0 /* GetBooksModel.swift in Sources */,
 				BA8B1AD026648590000B8022 /* UnsplashTextPictrueModel.swift in Sources */,
+				0BE8BCBD2BD0000C00261213 /* HttpRouter.swift in Sources */,
 				D1F09BB72663CD8A00ED7084 /* LastReadModel.swift in Sources */,
 				BA0B1FC3265F41310022635A /* MagaCell.swift in Sources */,
 				D18E61022661D381001305B0 /* BookSelfModel.swift in Sources */,
 				D10D31CA2684C979003D9551 /* MainTabView.swift in Sources */,
 				D12C63D326C15C9600DF6A84 /* TextColon.swift in Sources */,
 				D18E61052661DDD7001305B0 /* String+extension.swift in Sources */,
+				0BE8BCBE2BD0000C00261213 /* WebSockets.swift in Sources */,
 				D1AE54E62674EED900D2B427 /* HalfModalView.swift in Sources */,
 				D18E610B26624F75001305B0 /* NewCollectionView.swift in Sources */,
 				D17FD98D26FF5FC500022869 /* CloseSheetButton.swift in Sources */,
+				0BE8BCC22BD0000C00261213 /* String+File.swift in Sources */,
 				D18C5EEE26652A370076EF3E /* PartialSheetViewModifier.swift in Sources */,
 				0BC3DB282BB84D0200D07D04 /* WebBookManagerGrid.swift in Sources */,
 				D18E6107266240F4001305B0 /* NewDetailsView.swift in Sources */,
@@ -1013,6 +1092,7 @@
 				D15EED9226F0CC5E0074162D /* CropContextView.swift in Sources */,
 				D15EED8826F0CC5E0074162D /* CropButton.swift in Sources */,
 				D15E3E5226C76EAF00EF4ECD /* AnimateMenuBtn.swift in Sources */,
+				0BE8BCCA2BD0000C00261213 /* Files.swift in Sources */,
 				D15EED8C26F0CC5E0074162D /* CropPageModel.swift in Sources */,
 				D1000CD8265FD1A10012EA88 /* Settings.swift in Sources */,
 				BA4B56B02660C1F300A37D89 /* PreviewContextMenu.swift in Sources */,
@@ -1035,10 +1115,13 @@
 				0BC3DB2A2BB84D3E00D07D04 /* WebManagerBookCell.swift in Sources */,
 				D10FE1E826C2B606005F89B4 /* Refresh.swift in Sources */,
 				D1AD3779268755380044BDF9 /* StarBookCell.swift in Sources */,
+				0BE8BCC12BD0000C00261213 /* HttpResponse.swift in Sources */,
 				D15EED9726F0CC5E0074162D /* UIDevice+ex.swift in Sources */,
+				0BE8BCCB2BD0000C00261213 /* Socket+Server.swift in Sources */,
 				D1BEA9FF265D2AAD00807A9B /* pictureViewModel.swift in Sources */,
 				D1BEA9D2265D25F700807A9B /* MangaViewerApp.swift in Sources */,
 				D18DEFF42678E27D00663E59 /* View+extension.swift in Sources */,
+				0BE8BCC32BD0000C00261213 /* HttpParser.swift in Sources */,
 				D10D31C82684C671003D9551 /* StarBookModel.swift in Sources */,
 				0B4BEB132BBEE99D00AD9DFF /* WebManagerDetailsView.swift in Sources */,
 				D18C5EF326652A370076EF3E /* View+IfDeviceType.swift in Sources */,
@@ -1052,13 +1135,18 @@
 				BA88D89626A1634500150598 /* ShareBookCell.swift in Sources */,
 				D1AE54E42674EE3A00D2B427 /* _ControllView.swift in Sources */,
 				D15EED8D26F0CC5E0074162D /* CloseBtn.swift in Sources */,
+				0BE8BCC92BD0000C00261213 /* HttpRequest.swift in Sources */,
+				0BE8BCBA2BD0000C00261213 /* MimeTypes.swift in Sources */,
 				D15E3E4E26C76B8000EF4ECD /* LottieView.swift in Sources */,
 				D17FD98B26FF5FC500022869 /* LastReadButton.swift in Sources */,
 				BAC6832026857AC70037C8EC /* CustomCorners.swift in Sources */,
 				D1AD3777268708E90044BDF9 /* StarContextView.swift in Sources */,
+				0BE8BCC02BD0000C00261213 /* HttpServerIO.swift in Sources */,
 				D12C63D226C15C9600DF6A84 /* TextDot.swift in Sources */,
 				D18E60FB2661CC6A001305B0 /* NewContentView.swift in Sources */,
 				D15EED9B26F0CC5E0074162D /* TestCropPreview.swift in Sources */,
+				0BE8BCCD2BD0000C00261213 /* String+Misc.swift in Sources */,
+				0BE8BCBB2BD0000C00261213 /* DemoServer.swift in Sources */,
 				D15EED8E26F0CC5E0074162D /* ActionList.swift in Sources */,
 				D15EEDA026F0CC7E0074162D /* HUD2.swift in Sources */,
 				BA8B1AF72664910D000B8022 /* CapsuleLable.swift in Sources */,
